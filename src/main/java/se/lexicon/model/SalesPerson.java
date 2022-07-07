@@ -38,7 +38,7 @@ import java.util.Arrays;
     @Override
     public void printDescription(){
         System.out.println(getName() + " have id nr. " + getId() + " and a total salary of " + calculateSalary() +
-                ". His salary is increases because of maintenance av client " + Arrays.toString(clients) + " and " + "new clients " + Arrays.toString(aquiredClients)+".");
+                ". His salary increases because of maintenance av client " + Arrays.toString(clients) + " and " + "new clients " + Arrays.toString(aquiredClients)+".");
 }
 
 
